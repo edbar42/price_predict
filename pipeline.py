@@ -51,7 +51,7 @@ def prever_precos(caminho_arquivo_teste):
 
 if __name__ == "__main__":
     # Bloco de teste local para o aluno
-    arquivo_teste_exemplo = 'teste_publico.csv'
+    arquivo_teste_exemplo = os.path.join('data', 'teste_publico.csv')
     
     print(f"--- Executando Validação Local do Pipeline ---")
     
